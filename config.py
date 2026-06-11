@@ -64,7 +64,8 @@ class Config:
                     self.POP_MAIL_DIR = None
                 
                 # --- FDCT Configuration ---
-                self.CTM_CC_EMAIL = "security.admin@asl.com.mo"  # Special CC for FDCT receivers
+                
+                self.CTM_CC_EMAIL = self.SENDER_EMAIL  # Use sender's email as CC for CTM receivers
 
                 
             else:
