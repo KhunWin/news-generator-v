@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##important##
 - It is highly suggested to copy this entire folder to your local machine and run the application. 
 - If you have run the older version before, keep a copy of any csv files outside this application folder. Whenever a new version is run for the first time, it will replace the current-month csv file 
@@ -37,3 +38,8 @@ Note for csv
  - If the csv file is open, it cannot be updated with new records. 
 
 ****
+=======
+# News-Generator
+
+This application is used to send news email to customers. 
+>>>>>>> 661c621e9018f051f1fbfc76604c610087134352
