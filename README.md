@@ -9,8 +9,14 @@
 
 Create "mail_list" folder in the current directory where the application is located and keep all txt files that include email lists
  - News Generator folder
-  -----mail_list 
-  -----News_Generator_v1.exe
+  -----mail_list
+      -----ASL.txt
+      -----fdct.txt 
+  -----pop_list
+  -----pop_config.json 
+  -----default_signature.html
+  -----fdct_signature.html  
+  -----News_Generator_v2_4_1.exe
 
 Create "pop_mail" folder in the current directory where the application is located
  - pop_mail folder should have a txt file that includes a list of pop email list
