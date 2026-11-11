@@ -7,16 +7,19 @@
 - v2.4 has been updated to modify MTR from MTRC for MTR receiver. When FDCT is selected as receiver, cyberupdate@soc2.cmt.net will be selected automatically. 
 - v.23 has been updated to create csv files in the current folder to record all input data for each month.
 
-Create "mail_list" folder in the current directory where the application is located and keep all txt files that include email lists
- - News Generator folder
-  -----mail_list
-      -----ASL.txt
-      -----fdct.txt 
-  -----pop_list
-  -----pop_config.json 
-  -----default_signature.html
-  -----fdct_signature.html  
-  -----News_Generator_v2_4_1.exe
+Create "mail_list" folder in the current directory where the application is located and keep all txt files that include email lists \
+ 
+ ```
+News Generator
+├── mail_list
+│   ├── ASL.txt
+│   └── fdct.txt
+├── pop_list
+├── pop_config.json
+├── default_signature.html
+├── fdct_signature.html
+└── News_Generator_v2_4_1.exe
+```   
 
 Create "pop_mail" folder in the current directory where the application is located
  - pop_mail folder should have a txt file that includes a list of pop email list
