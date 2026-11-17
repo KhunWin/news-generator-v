@@ -18,6 +18,7 @@ News Generator
 ├── pop_config.json
 ├── default_signature.html
 ├── fdct_signature.html
+├── ASL_sign.png
 └── News_Generator_v2_4_1.exe
 ```   
 
