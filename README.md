@@ -14,7 +14,7 @@ News Generator
 ├── mail_list
 │   ├── ASL.txt
 │   └── fdct.txt
-├── pop_list
+├── pop_mail
 ├── pop_config.json
 ├── default_signature.html
 ├── fdct_signature.html
