@@ -19,13 +19,26 @@ News Generator
 ├── default_signature.html
 ├── fdct_signature.html
 ├── ASL_sign.png
+├── logo.png (ctm logo for email signature)
 └── News_Generator_v2_4_1.exe
 ```   
 
 Create "pop_mail" folder in the current directory where the application is located
  - pop_mail folder should have a txt file that includes a list of pop email list
 
-Create "pop_config.json" and add all pop email lists 
+Create "pop_config.json" and add all pop email lists
+The following is the sample json for pop config 
+```
+{
+    "example@popemail.net": {
+    "pop_server": "",
+    "pop_port": ,
+    "smtp_server": "",
+    "smtp_port": ,
+    "password": ""
+}
+}
+```
 
 Note for mail_list folder 
  - make sure each email moves to a new line, rather than using this character ";" at the end of each email.

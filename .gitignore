@@ -155,9 +155,9 @@ pop_config.json
 # default_signature.html
 # fdct_signature.html
 # ASL_sign.png
+mail.png
 
 *.csv
-*.png
 *.txt
 =======
 
