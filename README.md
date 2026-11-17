@@ -15,6 +15,7 @@ News Generator
 │   ├── ASL.txt
 │   └── fdct.txt
 ├── pop_mail
+    ├── pop_mails.txt
 ├── pop_config.json
 ├── default_signature.html
 ├── fdct_signature.html
@@ -25,6 +26,11 @@ News Generator
 
 Create "pop_mail" folder in the current directory where the application is located
  - pop_mail folder should have a txt file that includes a list of pop email list
+ - pop_emails.txt
+  ```
+  pop.email@example.net
+  pop.email2@example.net 
+  ```
 
 Create "pop_config.json" and add all pop email lists
 The following is the sample json for pop config 
