@@ -1,5 +1,10 @@
 <<<<<<< HEAD
-##important##
+
+
+**To run the program**
+- use *main_v1.py* 
+
+**important**
 - It is highly suggested to copy this entire folder to your local machine and run the application. 
 - If you have run the older version before, keep a copy of any csv files outside this application folder. Whenever a new version is run for the first time, it will replace the current-month csv file 
 

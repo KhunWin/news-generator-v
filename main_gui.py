@@ -496,9 +496,16 @@ class SOCEmailGeneratorApp(QMainWindow):
                 else:
                     print("[SOCEmailGeneratorApp] Skipping CSV logging - email send was not fully successful")
 
+        
+        
+
         except Exception as ex:
             print(f"[SOCEmailGeneratorApp][ERROR in _send_email] {ex}")
             self._set_status(f"Error: {ex}", "red")
+
+        finally:
+                    # Switch Send Mode back to Preview after sending
+                    self.rb_preview.setChecked(True)
 
     # ══════════════════════════════════════════════════════════════════
     #  Form Reset

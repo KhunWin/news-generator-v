@@ -423,28 +423,7 @@ class UIBuilder:
             print(f"[UIBuilder][ERROR in _build_affected_systems_section] {e}")
             return QGroupBox("Affected Systems")
     
-    # def _build_excel_logging_section(self) -> QGroupBox:
-    #     """Build the Excel logging option section."""
-    #     try:
-    #         self.parent.excel_btn_group, excel_radios = self.ui_components.create_radio_group(
-    #             ["Yes", "No"],
-    #             default_index=1  # Default to No
-    #         )
-            
-    #         self.parent.rb_excel_yes = excel_radios[0]
-    #         self.parent.rb_excel_no = excel_radios[1]
-
-    #         excel_row = self.ui_components.create_horizontal_layout(excel_radios)
-
-    #         return self.ui_components.create_boxed_group(
-    #             "Excel",
-    #             layout_items=[excel_row]
-    #         )
-            
-    #     except Exception as e:
-    #         print(f"[UIBuilder][ERROR in _build_excel_logging_section] {e}")
-    #         return QGroupBox("Excel")
-    
+ 
     def _build_excel_logging_section(self) -> QGroupBox:
         """Build the Excel logging option section with update options."""
         try:
